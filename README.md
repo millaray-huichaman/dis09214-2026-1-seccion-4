@@ -2,6 +2,8 @@
 
 repositorio del curso DIS09214 pensamiento computacional, sección 4.
 
+esta sección es impartida por profesore aarón montoya, en conjunto con ayudante vania paredes.
+
 ## secciones
 
 | n | docente           | horario                   | enlace                                                   |
@@ -47,7 +49,7 @@ repositorio del curso DIS09214 pensamiento computacional, sección 4.
 | 06     | 04-17 | condicionales y lógica |
 | 07     | 04-24 | funciones              |
 | 08     | 05-01 | texto                  |
-| receso | 05-08 | receso                 |
+| receso | 05-08 | no hay clases          |
 | 09     | 05-15 | repaso y anteproyecto  |
 | 10     | 05-22 | solemne 2              |
 | 11     | 05-29 | color y computación    |
@@ -55,3 +57,8 @@ repositorio del curso DIS09214 pensamiento computacional, sección 4.
 | 13     | 06-12 | aleatoreidad           |
 | 14     | 06-19 | objetos                |
 | 15     | 06-26 | examen                 |
+
+## bibliografía
+
+* John Maeda
+* p5js.org
