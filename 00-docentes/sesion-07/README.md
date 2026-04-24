@@ -153,7 +153,7 @@ function draw() {
 }
 ```
 
-## Coordenadsas cartesianas
+## Coordenadas cartesianas
 Son fomes, van de x a y, no son las idelaes para un movimiento circular.
 Para este tipo de movimiento existen otras coordenadas que son las **polares**.
 
