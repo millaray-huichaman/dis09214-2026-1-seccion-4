@@ -23,22 +23,64 @@ en p5js, cuando uno abre el panel de la izquierda, encontramos index.html, y par
 
 Los *bucles for* hace que un código se repita sin necesidad de ponerlo varias veces
 
-se escribe for(let i =0; i<5; i++) {
-  text += "The number is " + i + "<br>";
+se escribe for(let i =0; i<5; i++) {elemento o acción
 }
 
-### Código p5js "primer intento estatico"
+### Código p5js "for estatico"
 https://editor.p5js.org/millaray-huichaman/sketches/m97P-MoKl 
 
-### Código p5js "algo random que hice porque no sabía como llegar a lo que había hecho en la clase el profe"
+
+### Código p5js "for dinamico intento 1"
+se me multiplican sólo los circulos
+
 https://editor.p5js.org/millaray-huichaman/sketches/mCPzOyhGy
 
 
-### Código p5js "algo random que hice porque no sabía como llegar a lo que había hecho en la clase el profe pt2"
+### Código p5js "for dinámico intento 2"
+ahora se me multiplica todo
+
+![descripción gráfica de mi reacción en ese momento] (./muñeco_grito.png)
+
+lo que cambié fue que pasé el:
+
+    medioX = width/2;
+
+    medioY = height/2;
+
+de draw a setup, y añadí a draw:
+
+    medioX = random(width);
+
+    medioY = random(height);
+
 https://editor.p5js.org/millaray-huichaman/sketches/JydIiEjMo
 
-### Código p5js "aún no lo logro"
+
+### Código p5js "for dinámico intento 3"
+ahora va más lento, añadí 
+
+    frameRate(3);
+
+y cambié el:
+ 
+    for (let i = 0; i < width; i= i+20)
+
+por
+   
+    for (let i = 0; i < width; i= i+separacion)
+   
 https://editor.p5js.org/millaray-huichaman/sketches/Fzkj3JKni
+
+
+### Código p5js "for dinamico ahora sí salió"
+tenía que añadirle el fondo, supongo que debe ser que sin el fondo estos movimientos quedan registrados y se ven en la pantalla, mientras que con el fondo estos cambios pasan "detrás" del fondo y el más reciente es el que se ve
+
+    background (0,0,0);
+
+https://editor.p5js.org/millaray-huichaman/sketches/n6Frm32kx
+
+al menos ahora se que pasa si no tengo fondo 
+
 
 ### Código p5js porfe matias
 https://editor.p5js.org/millaray-huichaman/sketches/upuB1We2Z
