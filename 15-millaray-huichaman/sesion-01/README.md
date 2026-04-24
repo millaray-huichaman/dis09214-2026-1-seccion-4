@@ -39,7 +39,7 @@ https://editor.p5js.org/millaray-huichaman/sketches/mCPzOyhGy
 ### Código p5js "for dinámico intento 2"
 ahora se me multiplica todo
 
-![descripción gráfica de mi reacción en ese momento] (./muñeco_grito.png)
+![descripción gráfica de mi reacción en ese momento](./muñeco_grito.png)
 
 lo que cambié fue que pasé el:
 
@@ -81,6 +81,7 @@ https://editor.p5js.org/millaray-huichaman/sketches/n6Frm32kx
 
 al menos ahora se que pasa si no tengo fondo 
 
+![descripción gráfica de mi reacción en ese momento](./yo-cansada.png)
 
 ### Código p5js porfe matias
 https://editor.p5js.org/millaray-huichaman/sketches/upuB1We2Z
