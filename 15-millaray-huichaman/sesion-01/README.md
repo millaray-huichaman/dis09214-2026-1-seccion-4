@@ -83,5 +83,5 @@ al menos ahora se que pasa si no tengo fondo
 
 ![descripción gráfica de mi reacción en ese momento](./yo-cansada.png)
 
-### Código p5js porfe matias
+### Código p5js cambio de profes
 https://editor.p5js.org/millaray-huichaman/sketches/upuB1We2Z
