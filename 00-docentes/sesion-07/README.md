@@ -1,5 +1,9 @@
 # sesion-07
 
+viernes 24 abril 2026
+
+iteradores
+
 ¡PROCESSING COMMUNITY DAY! en chile!!!
 
 ## FOR
@@ -18,27 +22,28 @@ Una iteracion es una repetición que cada vez que se repite viene con algo disti
 
 Ejemplo de For:
 
-```
+```js
 for(let i = 0; i < 5; i++){
   text += "The number is " + i + "<br>";
 }
 ```
+
 Dentro de los {} hay código.
 
 > P5 es un subconjunto de javascript
 
-```
-
-for(inicio de los tiempos
-   hasta cuando sigues con tus cosas
-   refresco/actualización){
+```js
+// for(inicio de los tiempos
+//   hasta cuando sigues con tus cosas
+//   refresco/actualización){
 }
 ```
+
 Usualmente se usa "i" de iterar. Entonces existe una variable que se llama "i" y vale "0" al principio de los tiempos. Luego usamos "i", en este caso nos preguntamos: ¿Es "i" menor que 5?, si, porque "0" es menor que "5".
 
 Ahora, "i" lo que sea que vales, vales lo mismo + 1 (i++), cuando esto ocurra, se dibuja una elipse de 10x10 en un lugar random)
 
-```
+```js
 function setup() {
   createCanvas(400, 400);
 
@@ -53,15 +58,15 @@ function draw() {
 }
 ```
 
-Se dibujan 5 elipses porque dijimos que si "i" vale menos que 5, esto pasa:
-0, ,1, 2, 3, 4.
+Se dibujan 5 elipses porque dijimos que si "i" vale menos que 5, esto pasa cuando i: 0, ,1, 2, 3, 4.
 
-## For Estático
-Linea recta entre punto medio del lienzo 
+## ciclo for y comportamiento estático
+
+Línea recta entre punto medio del lienzo
 
 Si quiero que esta línea se mueva 2, le doy el valor de "i".
 
-```
+```js
 let medioX;
 let medioY;
 let separacion = 25;
@@ -101,12 +106,14 @@ function setup() {
 
 function draw() {}
 ```
+
 > Pueden haber miles de líneas en un for.
 
-## For dinámico
-Poner el código en draw, "i" ya no vale "i", sino que ahora vale framecount %5.
+## ciclo for y comportamiento dinámico
 
-```
+Poner el código en draw, "i" ya no vale "i", sino que ahora vale frameCount %5.
+
+```js
 let medioX;
 let medioY;
 let separacion = 25;
@@ -157,13 +164,15 @@ function draw() {
 }
 ```
 
-## Coordenadas cartesianas
-Son fomes, van de x a y, no son las idelaes para un movimiento circular.
-Para este tipo de movimiento existen otras coordenadas que son las **polares**.
+## Coordenadas cartesianas 2D
+
+Las coordenadas cartesianas 2D se basan en ejes perpendiculares (x, y).
+
+Existen otras coordenadas, como por ejemplo las polares, que se usan para definir una distancia en línea recta al origen, y un ángulo de rotación.
 
 Ambas sirven para medir cualquier punto en un plano pero diferentes maneras de llegar al mismo lugar.
 
-```
+```js
 // quiero que
 // desde punto medio del lienzo
 // primero haya un punto
@@ -214,7 +223,8 @@ function draw() {
   }
 }
 ```
-> Las variables da lo mismo como las llame
+
+> Las variables pueden tener cualquier nombre, pero es importante que tengan un nombre que nos ayude a entender lo que hacen.
 
 * Necesito un lugar de entrada, salida y una variante propia.
 * For se pregunta si se está cumpliendo lo que se está preguntando.
@@ -227,7 +237,7 @@ function draw() {
 * Ahora poquito es 10 y sigue con su vida..
 * Luego se lo vuelve a preguntar y ahora es 20...
 
-```
+```js
 // quiero que
 // desde punto medio del lienzo
 // primero haya un punto
@@ -294,7 +304,9 @@ function draw() {
   
 }
 ```
+
 ### Mover el eje de coordenadas / push y pop
+
 Graba el estado actual para poder volver al anterior.
 
 * **push:** pausa/ guarda las condiciones actuales/ guarda quien eres para poder volver a restaurarlo.
@@ -304,7 +316,7 @@ Graba el estado actual para poder volver al anterior.
 
 * **Translate** dice que "este lugar de origen estará en este otro lugar"
 
-```
+```js
 
 let angulo = 0;
 

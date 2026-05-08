@@ -57,7 +57,7 @@ esta sección es impartida por profesore aarón montoya, en conjunto con ayudant
 | [12](./00-docentes/sesion-12/README.md)     | 06-05 | interactividad            |
 | [13](./00-docentes/sesion-13/README.md)     | 06-12 | HTML y web estática       |
 | [14](./00-docentes/sesion-14/README.md)     | 06-19 | anteproyecto              |
-| [15](./00-docentes/sesion-15/README.md)     | 06-26 | examen                  |
+| [15](./00-docentes/sesion-15/README.md)     | 06-26 | examen                    |
 
 ## asistencia
 
@@ -104,7 +104,7 @@ si estudiante rinde examen, la nota final del curso se calcula como `0.7 * NP + 
 | 25 | <https://github.com/matitello>          | <https://editor.p5js.org/matitello/sketches>          |
 | 26 | <https://github.com/trinidadvasquez>    |  <https://editor.p5js.org/trinidadvasquez/sketches>   |
 | 27 | <https://github.com/sofifigs>           |  <https://editor.p5js.org/sofifigs/sketches>          |
-| 28 |    <https://github.com/javierazzapata>  |  <https://editor.p5js.org/javierazzapata/sketches>                                                 |
+| 28 | <https://github.com/javierazzapata>     |  <https://editor.p5js.org/javierazzapata/sketches>    |
 
 ## bibliografía
 
