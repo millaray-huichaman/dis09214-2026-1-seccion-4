@@ -4,6 +4,12 @@ repositorio del curso DIS09214 pensamiento computacional, sección 4.
 
 esta sección es impartida por profesore aarón montoya, en conjunto con ayudante vania paredes.
 
+## enlaces importantes
+
+- solemne-1: <https://disenoudp.github.io/dis09214-2026-1-seccion-4/00-solemne-1/>
+- solemne-2: en construcción
+- examen: en construcción
+
 ## secciones
 
 | n | docente           | horario                   | enlace                                                   |
@@ -19,24 +25,24 @@ esta sección es impartida por profesore aarón montoya, en conjunto con ayudant
 
 ### unidad 1
 
-* cultura computacional
-* dibujo 2D con p5.js
-* variables y tipos
-* iteradores
+- cultura computacional
+- dibujo 2D con p5.js
+- variables y tipos
+- iteradores
 
 ### unidad 2
 
-* condicionales y lógica
-* tiempo
-* aleatoreidad
-* color y computación
+- condicionales y lógica
+- tiempo
+- aleatoreidad
+- color y computación
 
 ### unidad 3
 
-* interactividad
-* funciones
-* texto
-* objetos
+- interactividad
+- funciones
+- texto
+- objetos
 
 ## calendario
 
@@ -108,6 +114,6 @@ si estudiante rinde examen, la nota final del curso se calcula como `0.7 * NP + 
 
 ## bibliografía
 
-* John Maeda
-* p5js.org
-* code as creative medium, golan levin y tega brain, <https://mitpress.mit.edu/9780262542043/code-as-creative-medium/>
+- John Maeda
+- p5js.org
+- code as creative medium, golan levin y tega brain, <https://mitpress.mit.edu/9780262542043/code-as-creative-medium/>
