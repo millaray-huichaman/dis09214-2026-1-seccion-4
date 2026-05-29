@@ -59,6 +59,32 @@ let myArray = ['deeppink', 'darkorchid', 'magenta'];
  
  Si las declaro en Septup o draw, las encasillo en ese lugar, pero también se puede.
 
+Ejemplo en clases: 
+
+```
+// arreglo array
+// fue declarado de forma global
+let seccion4 = ["javiera", "kati4ska", "mish", "juan", "luciana", "pepito"];
+
+function setup() {
+  createCanvas(400, 400);
+  // variable local
+  let x = 5;
+  background(255);
+  frameRate(5);
+}
+
+function draw() {
+  for (let i = 0; i < 6; i++) {
+    text(
+      seccion4[i],
+      random(width),
+      random(height));
+    console.log(seccion4[i]);
+  }
+}
+
+```
 
 
 
