@@ -45,3 +45,16 @@ Array para nosotros será una forma de ordenar.
 Ejemplo:
 let myArray = ['deeppink', 'darkorchid', 'magenta'];
 
+- Un array se declara : `let`
+- Le pones un nombre : `myArray`
+- Le dices cuanto vale : `= ['deeppink', 'darkorchid', 'magenta'];`
+   - En este caso
+   - 'deeppink' es index 0
+   - 'darkorchid' es index 1
+   - 'magenta' es index 2
+
+ 
+
+
+
+
