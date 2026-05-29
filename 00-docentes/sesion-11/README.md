@@ -86,5 +86,34 @@ function draw() {
 
 ```
 
+Ejemplo array 2
+
+```
+// arreglo array
+// fue declarado de forma global
+let seccion4 = ["javiera", "kati4ska", "mish", "juan", "luciana", "pepito"];
+
+function setup() {
+  createCanvas(800, 600);
+  // variable local
+  let x = 5;
+  background(255);
+  frameRate(5);
+}
+
+function draw() {
+  fill(255, 50);
+  rect(0, 0, width, height);
+  fill(0);
+  for (let i = 0; i < 6; i++) {
+    text(
+      seccion4[i],
+      random(width),
+      random(height));
+    console.log(seccion4[i]);
+  }
+}
+
+```
 
 
