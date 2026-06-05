@@ -388,3 +388,146 @@ function h4ck3r(palabra) {
 }
 
 ```
+> Push y pop: Es una función para guardar las condiciones de dibujo para poder recuperarklas más adelante.
+
+## Ejemplo pincel
+
+```js
+// setup() ocurre una vez al principio
+function setup() {
+  // lienzo
+  createCanvas(400, 400);
+  // fondo blanco
+  background(255);
+}
+
+// draw() ocurre en bucle muy rapido
+function draw() {
+  // funcion creada por mi
+  // con parametro 50
+  cursorAesthetizar(50, 5);
+}
+
+// quiero que alrededor de mi cursor
+// haya un sistema de particulas
+// navegando alrededor
+// con aleatoreidad y transparencia
+
+// funcion con nombreRidiculo
+// y un parametro para controlar
+// cuantas particulas
+function cursorAesthetizar(numParticulas, diametroMax) {
+  // solamente cuando frameCount sea
+  // divisible por 5
+  if (frameCount % 5 == 0) {
+    // guardar las condiciones de dibujo
+    // para poder recuperarlas mas adelante
+    push();
+    
+    // figuras dibujarlas sin borde
+    noStroke();
+    
+    // bucle de repetir
+    // para tantas particulas
+    // como diga el parametro de la funcion
+    for (let i = 0; i < numParticulas; i++) {
+      // diametro de la particula
+      let diametro = random(diametroMax);
+      // GRACIAS a vania
+      // el comportamiento es circular
+      // coordenadas polares
+      // pero con frio opcional
+      // chiste de misaa.cc
+      // rene descartes -> x, y
+      // cartesiano
+      // pero tambien esta polar
+      // coordenadas en distancia, angulo
+      let distancia = random(50);
+      let angulo = random(50);
+      let posX = mouseX + distancia * cos(angulo);
+      let posY = mouseY + distancia * sin(angulo);
+      // color aleatorio
+      fill(random(255), random(255), random(255), 100);
+      // dibujar la elipse
+      // en torno al mouse
+      ellipse(posX, posY, diametro, diametro);
+    }
+    pop();
+  }
+}
+```
+
+## Adentro de una función puedo tener cuantas funciones yo quiera.
+
+> '=', se pregunta, es igual?.
+> '==' si son parecidos lo deja pasar.
+> '===' deben ser si o si iguales.
+
+Desafío en clases:
+
+```js
+// teclas +, -, " "
+// modfican la opacidad del color
+// que elijo no se como pero lo elijo
+// ademas hay 3 colores, r, g y b
+// y lo que hago es elegir su transparencia
+
+// opacidad del color
+let opacidad = 255;
+let colorActual = 0;
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+  elegirColor("verde");
+}
+
+function draw() {
+  ellipse(mouseX, mouseY, 10, 10);
+}
+
+function elegirColor(palabra) {
+  if (palabra == "rojo") {
+    console.log("cambio a rojo");
+    fill(255, 0, 0, opacidad);
+  } else if (palabra == "verde") {
+     console.log("cambio a verde");
+    fill(0, 255, 0, opacidad);
+    
+  } else if (palabra == "azul") {
+     console.log("cambio a azul");
+    fill(0, 0, 255, opacidad);
+  }
+}
+
+function elegirOpacidad() {}
+
+function keyPressed() {
+  if (key === "+") {
+    opacidad = opacidad + 10;
+  } else if (key === "-") {
+    opacidad = opacidad - 10;
+  }
+  // espacio cambia el color
+  else if (key === " ") {
+    console.log("espaciooooo");
+    let aleatorio = random(1);
+    console.log(aleatorio);
+    if (aleatorio < 0.33333) {
+      elegirColor("rojo");
+    } else if (aleatorio < 0.666666) {
+      elegirColor("verde");
+    } else {
+      elegirColor("azul");
+    }
+  }
+
+  if (opacidad > 255) {
+    opacidad = 255;
+  } else if (opacidad < 0) {
+    opacidad = 0;
+  }
+}
+```
+
+
