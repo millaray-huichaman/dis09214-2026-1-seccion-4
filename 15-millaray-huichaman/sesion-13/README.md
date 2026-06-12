@@ -39,3 +39,6 @@ para calcular el hex de un rgb se debe dividir el valor rgb en 16 y si da decima
 ####### 30/16= 1,875, el valor entero es 1 y el decimal sería: 0,875*16= 14, entonces el valor sería 1e
 ####### 160/16= 10, mi segundo valor es 0 otra vez, quedaría así: a0
 ####### f01ea0
+
+
+![comprobación](./hex.png)
