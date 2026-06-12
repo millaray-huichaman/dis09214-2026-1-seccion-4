@@ -34,11 +34,11 @@ en el sistema RGB se trabajan con valores del 0-255, o sea, 256 valores
 para calcular el hex de un rgb se debe dividir el valor rgb en 16 y si da decimal se saca en entero y se multiplica el decimal por 16.
 
 ###### ejemplos 
-####### 240,30,160 debo hacer:
-####### 240/16= 15, como mi segundo valor es 0 sería F0
-####### 30/16= 1,875, el valor entero es 1 y el decimal sería: 0,875*16= 14, entonces el valor sería 1e
-####### 160/16= 10, mi segundo valor es 0 otra vez, quedaría así: a0
-####### f01ea0
+###### 240,30,160 debo hacer:
+###### 240/16= 15, como mi segundo valor es 0 sería F0
+###### 30/16= 1,875, el valor entero es 1 y el decimal sería: 0,875*16= 14, entonces el valor sería 1e
+###### 160/16= 10, mi segundo valor es 0 otra vez, quedaría así: a0
+###### f01ea0
 
 
 ![comprobación](./hex.png)
