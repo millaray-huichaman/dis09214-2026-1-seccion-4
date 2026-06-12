@@ -10,7 +10,7 @@ llegué tarde por lo que voy a poner lo que entendí :(
 
 buscando *rgb color picker* hacemos una conversión de RGB, CMYK, HSV, HSL, y el HEX
 
-partiendo desde 0,0,0 en el RGB , si ponemos algún diez en algún valor, en el HEX se leerá a ese valor, ejemplo:
+partiendo desde 0,0,0 en el RGB , si ponemos algún diez en algún valor, los valores en el HEX dejarán de ser cifras y comenzarán a ser letras, ejemplo:
 
 r,g,b = rrggbb
 0,0,10 = 00000a
