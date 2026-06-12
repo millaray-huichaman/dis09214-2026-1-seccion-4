@@ -54,3 +54,13 @@ Todo esto tiene que ver con la luz en una pantalla que tiene luz: Aditivo.
 > NUESTRA PERCEPCIÓN NO ES LA REALIDAD, ES NUESTRA PERCEPCIÓN SOLAMENTE
 
 El sonido va más lento que la luz. La luz es distinta en pantallas y en papeles.
+
+## Pixel
+
+Un pixel son 3 LED, uno rojo, otro verde y otro azul. Cada LED necesita 8 bit.
+
+Para un lienzo de 500x700 px, se necesitan 8 400 000 bits.
+
+Un jpg no muestra toda la información sino que la comprime.
+
+<https://reas.com> 
